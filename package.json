@@ -1,0 +1,22 @@
+{
+  "name": "dnsparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobjohnbob/dnsparse.git"
+  },
+  "author": "john@jshaver.net",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bobjohnbob/dnsparse/issues"
+  },
+  "homepage": "https://github.com/bobjohnbob/dnsparse#readme",
+  "dependencies": {
+    "atob": "^2.0.3"
+  }
+}
