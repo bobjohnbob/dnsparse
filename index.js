@@ -53,13 +53,13 @@ if(typeof(atob) === 'undefined') {
 		//flags are the 3rd-4th bytes
 		var flags = view.getUint16(2, false);
 		
-		headers.qr = (flags & 32768) >>> 15;
-		headers.opcode = (flags & 30720) >>> 11;
-		headers.aa = (flags & 1024) >>> 10;
-		headers.tc = (flags & 512) >>> 9;
-		headers.rd = (flags & 256) >>> 8;
-		headers.ra = (flags & 128) >>> 7; 
-		headers.rcode = flags & 15;
+		headers.qr = (flags & 0x8000) >>> 15;
+		headers.opcode = (flags & 0x7800) >>> 11;
+		headers.aa = (flags & 0x400) >>> 10;
+		headers.tc = (flags & 0x200) >>> 9;
+		headers.rd = (flags & 0x100) >>> 8;
+		headers.ra = (flags & 0x80) >>> 7; 
+		headers.rcode = flags & 0xF;
 
 		headers.qdcount = view.getUint16(4, false);
 		headers.ancount = view.getUint16(6, false);
