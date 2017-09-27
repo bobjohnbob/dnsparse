@@ -5,7 +5,6 @@ if(typeof(atob) === 'undefined') {
 	'use strict';
 
 	var UDP_HEADER_LENGTH = 8;
-	var OPCODES = ["QUERY", "IQUERY", "STATUS"]
 
 	//tcpdump file
 	//var encodedPacket = "1MOyoQIABAAAAAAAAAAAAAAABAABAAAAKPfFWWMZCwBRAAAAUQAAAExg3kp+6eSzGAoxpggARQAAQ66CQABAEXgXCgAAEAoAAAG90gA1AC+qDJSEAQAAAQAAAAAAAAphc3NldHMtY2RuBmdpdGh1YgNjb20AAAEAAQ=="
