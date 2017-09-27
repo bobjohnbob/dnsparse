@@ -9,7 +9,7 @@ Playing around with parsing dns packets in Javascript.
 
 To see the parsed result of the packet, clone the repo and :
 
-```npm install && npm run```
+```npm install && npm start```
 
 To view in the browser, open `index.html` in your browser and look at the console output.
 
