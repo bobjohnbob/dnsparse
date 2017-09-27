@@ -11,5 +11,7 @@ To see the parsed result of the packet, clone the repo and :
 
 ```npm install && npm run```
 
-To view in the browser, open `index.html` in your browser.
+To view in the browser, open `index.html` in your browser and look at the console output.
+
+The raw packet that is parsed has also been saved as `./data`, if you would like to look at it.
 
